@@ -24,23 +24,23 @@ This will start a local development server and open Anthemizer in your default b
 3. Click on the "Fork" button located at the top-right corner of the page.
 You now have a copy of Anthemizer under your GitHub account.
 
-Clone your forked repository to your local machine:
+4. Clone your forked repository to your local machine:
 
-git clone <your-fork-url>
-Set up the remote upstream to stay updated with the original repository:
-git remote add upstream <original-repository-url>
+git clone your-fork-url\
+5. Set up the remote upstream to stay updated with the original repository:\
+git remote add upstream https://github.com/Kehrlibj/anthemizer.git
 
-Verify that the remote upstream is added successfully:
+6. Verify that the remote upstream is added successfully:
 git remote -v
 
 ### Making Changes and Reintegrating
 Once you've made the necessary changes and are ready to reintegrate your work, follow these steps:
 
-1. Commit your changes to your forked repository:
+1. Commit your changes to your forked repository:\
 git add .
 git commit -m "Describe your changes"
 
-2. Push the changes to your forked repository:
+2. Push the changes to your forked repository:\
 git push origin main
 Visit your forked repository on GitHub.
 
