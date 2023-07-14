@@ -1,4 +1,4 @@
-Anthemizer
+### Anthemizer
 Welcome to Anthemizer! This guide will walk you through the steps to get started with the project, create your own fork, and inform the project owner when you're ready to reintegrate your work.
 
 Getting Started
