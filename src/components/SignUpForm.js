@@ -33,6 +33,8 @@ function SignUpForm({ onLogIn }) {
   onLogIn = () => {
     navigate('/login');
   };
+
+  // Styles
   const styles = {
     backgroundColor: '#FFFFFF',
     display: 'flex',
@@ -40,7 +42,6 @@ function SignUpForm({ onLogIn }) {
     justifyContent: 'center',
     alignItems: 'center',
     fontFamily: "open sans"
-   // You may need to set a height for the flex container
   };
   const accentStyles = {
     color: "#0C2F65",

@@ -5,6 +5,37 @@ import { useNavigate } from 'react-router-dom';
 
 function HomePage({ user }) {
   const navigate = useNavigate();
+  // Styles
+  const styles = {
+    backgroundColor: '#FFFFFF',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontFamily: "open sans"
+  };
+  const accentStyles = {
+    color: "#0C2F65",
+    fontWeight: "bold",
+    fontFamily: "oswald"
+  }
+  const inputStyles = {
+    padding: "10px",
+    margin: "10px",
+    textAlign: "center",
+    width: "200px",
+  }
+  const containerStyles = {
+    display: "flex",
+    flexDirection: "column",
+    border: "solid 3px #F17405",
+    alignItems: 'center',
+  }
+  const buttonStyles = {
+    margin: "10px",
+    width: "100px",
+  }
+
 
   useEffect(() => {
     if (!user) {
@@ -22,10 +53,12 @@ function HomePage({ user }) {
   };
 
   return (
-    <div>
-      <input type="text" placeholder="Search..." />
-      <p>Welcome, {user ? user.email : ''}!</p>
-      <button onClick={handleLogout}>Log Out</button>
+    <div style={styles}>
+      <div style={containerStyles}>
+      <input type="text" placeholder="Search..." style={inputStyles}/>
+      <p style={accentStyles}>Welcome, {user ? user.email : ''}!</p>
+      <button onClick={handleLogout} style={buttonStyles}>Log Out</button>
+      </div>
     </div>
   );
 }
