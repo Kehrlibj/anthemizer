@@ -4,11 +4,11 @@ Welcome to Anthemizer! This guide will walk you through the steps to get started
 Getting Started
 To get started with Anthemizer, follow these steps:
 
-Clone the repository to your local machine using the following command:
-git clone https://github.com/Kehrlibj/anthemizer.git
+Clone the repository to your local machine using the following command:\
+ - git clone https://github.com/Kehrlibj/anthemizer.git
 
-Install the necessary dependencies by running the following command:
-npm install
+Install the necessary dependencies by running the following command:\
+ - npm install
 
 Configure the project settings according to your needs. Refer to the documentation provided in the repository for any specific configuration instructions.
 
@@ -37,11 +37,11 @@ git remote -v
 Once you've made the necessary changes and are ready to reintegrate your work, follow these steps:
 
 1. Commit your changes to your forked repository:\
-git add .
+git add .\
 git commit -m "Describe your changes"
 
 2. Push the changes to your forked repository:\
-git push origin main
+git push origin main\
 Visit your forked repository on GitHub.
 
 3. Click on the "New Pull Request" button.
