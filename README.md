@@ -24,9 +24,9 @@ This will start a local development server and open Anthemizer in your default b
 3. Click on the "Fork" button located at the top-right corner of the page.
 You now have a copy of Anthemizer under your GitHub account.
 
-4. Clone your forked repository to your local machine:
+4. Clone your forked repository to your local machine:\
+git clone your-fork-url
 
-git clone your-fork-url\
 5. Set up the remote upstream to stay updated with the original repository:\
 git remote add upstream https://github.com/Kehrlibj/anthemizer.git
 
